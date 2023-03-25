@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/snows",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nicolas.GLASSEY",
+      "email": "nicolas.glassey@cpnv.ch"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  }
+}

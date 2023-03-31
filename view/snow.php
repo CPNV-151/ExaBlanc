@@ -20,7 +20,7 @@ ob_start();
             </ul>
             <div class="tab-content">
                 <div class="tab-pane fade in active" id="details">
-                    <div class="span12"><h4><strong><?= $snow['brand']; ?></strong></h4></div>
+                    <div class="span12"><h4><strong><?= $snow['brand'] . " - " . $snow['model'] ; ?></strong></h4></div>
                     <div class="span3">Longueur : </div><div class="span6 text-info"><?= $snow['snowLength']; ?> cm</div>
                     <div class="span3">Prix : </div><div class="span6 text-info"><strong>CHF <?= $snow['dailyPrice']; ?> .-</strong></div>
                     <div class="span3">Disponibilité : </div><div class="span6"><?= $snow['qtyAvailable']; ?></div>

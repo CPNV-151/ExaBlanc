@@ -23,7 +23,7 @@ ob_start();
           </div>
       </form>
     <div class="container signin">
-        <p>Besoin d'un compte <a href="index.php?action=home">Register</a>.</p>
+        <p>Besoin d'un compte <a href="index.php?action=register">Register</a>.</p>
     </div>
 </article>
 <?php 

@@ -63,7 +63,7 @@
                         <div class="nav-collapse collapse">
                             <ul class="nav nav-pills ddmenu">
                                 <li><a href="index.php?action=home">Home</a></li>
-                                <li><a href="index.php?action=snows">Snow</a></li>
+                                <li><a href="index.php?action=snows">Snows</a></li>
                                 <?php if(!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || (($_GET['action']=="logout"))) :?>
                                     <li><a href="index.php?action=login">Login</a></li>
                                     <li><a href="index.php?action=register">Register</a></li>

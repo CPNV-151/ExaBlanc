@@ -12,3 +12,7 @@ Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate
 Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nicolas.glassey@cpnv.ch' for key 'userEmailAddress'
 Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nicolas.glassey@cpnv.ch' for key 'userEmailAddress'
 Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nicolas.glassey@cpnv.ch' for key 'userEmailAddress'
+Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nicolas.glassey@cpnv.ch' for key 'userEmailAddress'
+Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nicolas.glassey@cpnv.ch' for key 'userEmailAddress'
+Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nicolas.glassey@cpnv.ch' for key 'userEmailAddress'
+Duplicate Entry: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'gestionnaireFlotte@carfleet1.com' for key 'userEmailAddress'

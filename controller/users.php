@@ -25,14 +25,23 @@ function logout():void{
 }
 
 function register($userInputRegisterData):void{
+    //le formulaire n'est pas vide
     if(isset($userInputRegisterData['inputUserEmailAddress'])){
-        if(isRegistrationCorrect($userInputRegisterData['inputUserEmailAddress'],$userInputRegisterData['inputUserPwd'])) {
-            login($userInputRegisterData);
-        }else{
-            $error = "registration not possible";
-            require "view/register.php";
+        //vérifier que les deux pwds sont identiques
+        if($userInputRegisterData['inputUserPwd'] == $userInputRegisterData['inputUserPwdCheck']){
+            //tenter le register
+            if(isRegistrationCorrect($userInputRegisterData['inputUserEmailAddress'],$userInputRegisterData['inputUserPwd'])) {
+                login($userInputRegisterData);
+            }else{
+                //on détecte une erreur de register et on affiche le formulaire
+                $error = "registration not possible";
+                require "view/register.php";
+            }
         }
+        $error = "passwords check failed";
+        require "view/register.php";
     }else{
+        //on affiche le formulaire vide
         require "view/register.php";
     }
 }

@@ -4,9 +4,13 @@
 ob_start();
 ?>
     <h1>S'inscrire</h1>
+
     <?php if (isset($error)):?>
         <?php if ($error == "registration not possible") :?>
             <h5><span style="color:red">Impossible de vous inscrire avec les données saisies</span></h5>
+        <?php endif ?>
+        <?php if ($error == "passwords check failed") :?>
+            <h5><span style="color:red">Les deux mots de passes doivent être identiques</span></h5>
         <?php endif ?>
     <?php endif ?>
     <article>
